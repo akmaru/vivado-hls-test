@@ -1,5 +1,7 @@
-#ifndef VHLS_TEST_COPY_COPY_REF_H
-#define VHLS_TEST_COPY_COPY_REF_H
+#ifndef VHLSTEST_COPY_REF_H
+#define VHLSTEST_COPY_REF_H
+
+#include <stdint.h>
 
 namespace vhlstest {
 namespace {
@@ -17,4 +19,4 @@ void copy_ref(const DType* src, int32_t width, int32_t height, DType* dst) {
 }  // namespace
 }  // namespace vhlstest
 
-#endif  // VHLS_TEST_COPY_COPY_REF_H
+#endif  // VHLSTEST_COPY_REF_H
