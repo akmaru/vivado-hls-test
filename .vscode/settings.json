@@ -1,0 +1,6 @@
+{
+  "C_Cpp.clang_format_style": "file",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+}
