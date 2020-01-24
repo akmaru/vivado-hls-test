@@ -16,7 +16,7 @@ int main() {
   const int32_t width = 4;
   const int32_t height = 4;
 
-  hls::stream<DType> src("in"), dst("out");
+  hls::stream<DType> src("src"), dst("dst");
   DType src_ref[width * height], dst_ref[width * height];
 
   const std::vector<int32_t> extents = to_vector(width, height);
