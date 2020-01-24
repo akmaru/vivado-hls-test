@@ -4,6 +4,7 @@ set(TB_TCL ${CMAKE_CURRENT_SOURCE_DIR}/tb.tcl)
 
 set(modules
   copy
+  vecadd
 )
 
 foreach(m ${modules})
